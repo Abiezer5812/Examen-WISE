@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page_Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Work+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="Contact.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <!-- à compléter -->
+
+    <div class="header-container">
+      <a href="/index.html" class="logo">WISECLEAN</a>
+
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="#services">Services</a>
+        <a href="#tarifs">Tarifs</a>
+        <a href="#temoignages">Avis</a>
+        <a href="/Page_Contact/Contact.html">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="phone" href="tel:+22625090909">25 09 09 09</a>
+        <a class="btn btn-primary" href="#contact">Demander un devis</a>
+
+        <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false"
+          aria-controls="mobile-menu">
+        </button>
+      </div>
+    </div>
+
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Navigation mobile" hidden>
+      <a class="btn btn-primary" href="#contact">Demander un devis</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <!-- à compléter -->
+      <div class="hero-container">
+        <div class="hero-text">
+          <h1 class="hero-title">Palons de votre projet !</h1>
+          <div class="paragraphe">
+          <p class="hero-desc">Vous avez une question, une demande de devis ou besoin d'un renseignement ? Notre equipe
+            a votre ecoute pour vous accompagner.</p>
+          <p>Reponse rapide <br>sous 24h<br></p>
+          <p>Devis gratuit<br>sans engagement<br></p>
+          <p>Equipe professionnel<br>A votre service<br></p>
+          </div>
+        </div>
+        <div class="hero-piture">
+          <img src="Image/illustration.jpeg" alt="illustration">
+        </div>
+      </div>
+    </section>
+
+   <form action="champ" id="contact">
+      <h1>Envoyez-nous un message</h1>
+      <p>Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.</p>
+
+      <div class="form-row">
+        <div>
+          <label for="name">Nom complet <span class="required">*</span></label>
+          <input type="text" id="name" name="name" placeholder="Votre nom" required>
+        </div>
+
+        <div>
+          <label for="email">Email <span class="required">*</span></label>
+          <input type="email" id="email" name="email" placeholder="vous@exemple.com" required>
+        </div>
+      </div>
+
+      <div class="tel">
+        <label for="telephone">Téléphone <span class="required">*</span></label>
+        <input type="tel" id="telephone" name="telephone" placeholder="+226 00 00 00 00" required>
+      </div>
+
+      <div class="service">
+        <label for="service">Type de service <span class="required">*</span></label>
+        <select name="service" id="service" required>
+          <option value="" selected disabled>Sélectionnez un service</option>
+          <option value="résidentiel">Nettoyage résidentiel</option>
+          <option value="bureaux">Nettoyage de bureaux</option>
+          <option value="apres-travaux">Nettoyage après-travaux</option>
+          <option value="vitres">Nettoyage de vitres</option>
+        </select>
+      </div>
+
+      <div class="sms">
+        <label for="message">Votre message <span class="required">*</span></label>
+        <textarea name="message" id="message" placeholder="Décrivez votre demande..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M2 21l21-9L2 3v7l15 2l-15 2z" />
+        </svg>
+        Demander mon devis gratuit
+      </button>
+    
+    <h2>Une question ? <br>Une demande particuliere ?<br></h2>
+    <p>n'hesitez pas a nous contacter, nous sommes la pour vous </p>
+    </form>
+     
+    <section class="info">
+      <div class="infos-container">
+     <h2>Nos informations pratiques</h2>
+     <p class="info-intro">Vous pouvez egalement nous joindre directement par telephone, email ou nous rendre visite.</p>
+      </div>
+      <ul class="info-list">
+        <li class="info-item">
+        <h3><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20">
+	<path d="M0 0h20v20H0z" fill="none" />
+	<path fill="currentColor" d="M19.367 18.102L18 14h-1.5l.833 4H2.667l.833-4H2L.632 18.102C.285 19.146.9 20 2 20h16c1.1 0 1.715-.854 1.367-1.898M15 5A5 5 0 1 0 5 5c0 4.775 5 10 5 10s5-5.225 5-10m-7.7.06A2.7 2.7 0 0 1 10 2.361a2.699 2.699 0 1 1 0 5.399a2.7 2.7 0 0 1-2.7-2.7" />
+</svg>
+Adresse</h3>
+        <address>8F58+5RO cite Azimo<br>Ouaga 2000,Ouagadougou<br></address>
+        </li>
+
+        <li class="info-item">
+        <h3><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" d="M5 9.86a18.47 18.47 0 0 0 9.566 9.292l.68.303a3.5 3.5 0 0 0 4.33-1.247l.889-1.324a1 1 0 0 0-.203-1.335l-3.012-2.43a1 1 0 0 0-1.431.183l-.932 1.257a12.14 12.14 0 0 1-5.51-5.511l1.256-.932a1 1 0 0 0 .183-1.431l-2.43-3.012a1 1 0 0 0-1.335-.203l-1.333.894a3.5 3.5 0 0 0-1.237 4.355z" />
+</svg>
+telephone</h3>
+        <p>55 54 02 02</p>
+        </li>
+
+        <li class="info-item">
+         <h3><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="currentColor" fill-rule="evenodd" d="m22 6.86l-10 5.775L2 6.86v-.11A2.755 2.755 0 0 1 4.75 4h14.5A2.755 2.755 0 0 1 22 6.75zM2 8.59l10 5.775v.005l10-5.775v8.65a2.755 2.755 0 0 1-2.75 2.75H4.75A2.755 2.755 0 0 1 2 17.245z" clip-rule="evenodd" />
+</svg>
+Email</h3>
+         <a href="institutwise.org">institutwise.org</a>
+        </li>
+       
+        <li class="info-item">
+         <h3><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+	<path d="M0 0h1024v1024H0z" fill="none" />
+	<path fill="currentColor" d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448s448-200.6 448-448S759.4 64 512 64m0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372s372 166.6 372 372s-166.6 372-372 372" />
+	<path fill="currentColor" fill-opacity=".15" d="M512 140c-205.4 0-372 166.6-372 372s166.6 372 372 372s372-166.6 372-372s-166.6-372-372-372m176.5 509.7l-28.6 39a7.99 7.99 0 0 1-11.2 1.7L483.3 569.8a7.92 7.92 0 0 1-3.3-6.5V288c0-4.4 3.6-8 8-8h48.1c4.4 0 8 3.6 8 8v247.5l142.6 103.1c3.6 2.5 4.4 7.5 1.8 11.1" />
+	<path fill="currentColor" d="M686.7 638.6L544.1 535.5V288c0-4.4-3.6-8-8-8H488c-4.4 0-8 3.6-8 8v275.3c0 2.6 1.2 5 3.3 6.5l165.4 120.6c3.6 2.6 8.6 1.9 11.2-1.7l28.6-39c2.6-3.6 1.8-8.6-1.8-11.1" />
+</svg>
+Horaires</h3>
+         <p>Lun-ven : 8h-19h <br>Sam : 9h-13h <br>
+         </p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="location">
+    <div container-location>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124715.67320136393!2d-1.6192453953591477!3d12.358479661698395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe2e95ecceaa44cd%3A0x799f67799c743b8b!2sOuagadougou!5e0!3m2!1sfr!2sbf!4v1790672403615!5m2!1sfr!2sbf" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+    </section>
+  
+    <footer class="site-footer">
+      <!-- à compléter -->
+      <div class="footer-inner">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <p class="footer-logo">WISECLEAN</p>
+            <p>Service de nettoyage professionnel pour particuliers et entreprises.</p>
+          </div>
+
+          <div class="footer-col">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#services">Nettoyage résidentiel</a></li>
+              <li><a href="#services">Nettoyage de bureaux</a></li>
+              <li><a href="#services">Après travaux</a></li>
+              <li><a href="#services">Vitres</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h3>Entreprise</h3>
+            <ul>
+              <li><a href="#">À propos</a></li>
+              <li><a href="#temoignages">Avis clients</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col footer-newsletter">
+            <h3>Restez informé</h3>
+            <form class="newsletter-form" aria-label="Inscription à la newsletter">
+              <label for="newsletter-email" class="visually-hidden">Adresse email</label>
+              <input type="email" id="newsletter-email" placeholder="equipe@wiseclean.com">
+              <button type="submit" aria-label="S'inscrire">OK</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy;2026 WISECLEAN. Tous droits réservés.</p>
+          <p>25 09 09 09 · equipe@wiseclean.com</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="Contact.js"></script>
+</body>
+
+</html>
